@@ -1,4 +1,3 @@
-// FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   const affirmativeEmoji = String.fromCodePoint(0x1F60E);
   const negativeEmoji = String.fromCodePoint(0x274C);
@@ -7,8 +6,11 @@ const assertEqual = function(actual, expected) {
   return (actual === expected) ? console.log(affirmativeMessage) : console.log(negativeMessage);
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("Lighthouse", "Lighthouse");
-assertEqual(10, 2);
+const head = function(array) {
+  return array[0]
+};
+
+assertEqual(head([5,6,7]), 5);
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual(head("string", "s"));
+assertEqual(head([]), "string")
