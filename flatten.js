@@ -4,10 +4,10 @@ const flatten = function(arr) {
     if (!Array.isArray(item)) {
       output.push(item);
     } else {
-     flatten(item);
+     return output.push(...flatten(item));
     }
   });
   return output;
 };
-console.log(flatten([2, [3, 4], [2, 3]]))
+
 module.exports = flatten;
