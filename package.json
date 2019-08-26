@@ -1,0 +1,31 @@
+{
+  "name": "@jonny-ms/lotide",
+  "version": "1.0.0",
+  "description": "My lodash clone created as a project for Lighthouse Labs",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonny-ms/lotide.git"
+  },
+  "author": {
+    "name": "Jonathan Milne-Skarzenski",
+    "e-mail": "j.milne21@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonny-ms/lotide/issues"
+  },
+  "homepage": "https://github.com/jonny-ms/lotide#readme"
+}
